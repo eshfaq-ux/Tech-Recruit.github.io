@@ -1,0 +1,202 @@
+/* Reset Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #06BBCC;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #047c95;
+  }
+  
+  /* About Section Styles */
+  #about {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Services Section Styles */
+  #services {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .service {
+    margin-bottom: 40px;
+  }
+  
+  .service img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Portfolio Section Styles */
+  #portfolio {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #06BBCC;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #047c95;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #fff;
+  }

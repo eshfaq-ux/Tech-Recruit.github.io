@@ -1,0 +1,171 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #06BBCC;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #047c95;
+  }
+  
+  /* About Section Styles */
+  #about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Services Section Styles */
+  #services h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .service img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .service h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  /* Portfolio Section Styles */
+  #portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section Styles */
+  #contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #06BBCC;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #047c95;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
